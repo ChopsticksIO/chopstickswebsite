@@ -1,0 +1,30 @@
+<div class="fixed">
+  <nav class="top-bar" data-topbar>
+    <ul class="title-area">
+      <li class="name">
+        <h1 class="logo"><a href="#" class="nav">Chopsticks<span class="co">.io</span></h1>
+      </li>
+    </ul>
+
+    <section class="top-bar-section">
+      <!-- Right Nav Section -->
+      <ul class="right top-bar-ul">
+        <li><%= link_to '<i class="fi-home"></i>Home'.html_safe, root_path %></li>
+        <li><%= link_to '<i class="fi-torsos-all"></i>About us'.html_safe, home_about_path  %></li>
+        <li><%= link_to '<i class="fi-eye"></i>Project'.html_safe, contacts_path  %></li>
+        <li><%= link_to '<i class="fi-comment"></i>Contact'.html_safe, contacts_path  %></li>
+        <li class="has-dropdown">
+          <a href="#"><i class="fi-flag"></i> Language</a>
+          <ul class="dropdown">
+            <li><%= link_to '<i class="fi-flag"></i>English'.html_safe, contacts_path  %></li>
+<!--             <li><a href="#">Français</a></li>
+            <li><a href="#">Deutsch</a></li>
+            <li><a href="#">Italiano</a></li>
+            <li><a href="#">Espagnol</a></li>
+            <li><a href="#">Portuguese</a></li> -->
+          </ul>
+        </li>
+      </ul>
+    </section>
+  </nav>
+</div>
