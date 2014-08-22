@@ -1,7 +1,6 @@
 @import "foundation_and_overrides";
 @import 'foundation-icons';
 
-
 @font-face {
 	font-family: "Raleway";
 	font-family: "Lato";
@@ -11,39 +10,33 @@
 
 $green : #007B69;
 $yellow: #EAAB00;
-$grey :#f1f1f1;
-
-
+$grey : #f1f1f1;
 
 .logo {
   font-family: 'Raleway', sans-serif;
+	.co { color: $yellow }
+	.nav { font-size: 2.5em }
+}
 
-	.co {
-		color: $yellow;
+.top-bar-section {
+	ul { background: none }
+
+	li:not(.has-form) a:not(.button) {
+		font-family: 'Raleway', sans-serif;
+		font-size: 1em;
+		font-weight: 500;
+		background: $green;
 	}
 
-	.nav {
-	  font-size: 2.5em;
+	li:not(.has-form) a:not(.button):hover, li:not(.has-form):hover {
+		color : $yellow ;
+		background: darken($green, 2%)
 	}
+
+	i { font-size: 1.5em }
+
 }
 
-.top-bar-section ul {
-	background: none;
-}
-
-.top-bar-section li:not(.has-form) a:not(.button) {
-	font-family: 'Raleway', sans-serif;
-	font-size: 1em;
-	background: $green;
-}
-
-.top-bar-section li:not(.has-form) a:not(.button):hover {
-	background: darken($green, 10%);
-}
-
-.top-bar-section li:not(.has-form):hover {
-	background: darken($green, 10%);
-}
 .top-bar {
 	background: $green;
 	overflow: visible;
@@ -51,17 +44,33 @@ $grey :#f1f1f1;
 	padding-top: 5px;
 }
 
+.top-bar-ul{
+	i {
+	font-style: normal;
+	padding:0 15px;
+	}
+	a { color: white }
+}
+
+i {
+	font-style: normal;
+	padding:0 15px;
+}
+
 body {
 	font-family: 'Raleway', sans-serif;
 	background: #eceef1;
 }
 
-p {
-    font-family: 'Lato', sans-serif;
+h2, h3 { 
+	font-weight: 100;
+	color: $yellow;
 }
 
-h2, h3 {
-	font-weight: bold;
+p { font-family: 'Lato', sans-serif }
+
+.large-icon {
+	text-align: center;
 }
 
 .button {
@@ -71,25 +80,12 @@ h2, h3 {
 	}
 }
 
-.top-bar-ul{
-	i {
-	font-style: normal;
-	padding:0 15px;
-	}
-	a {
-		color: white;
-	}
-}
-
-
-i {
-	font-style: normal;
-	padding:0 15px;
-}
 
 .space {
-	margin-top: 2em;
+	margin-top: 4em;
+	padding-top: 3em;
 	margin-bottom: 2em;
+	background-color: #FAFAFA;
   h4 {
 		margin-top: 1em;
 		margin-bottom: 1em;
@@ -98,6 +94,7 @@ i {
 
 .main {
 	text-align: center;
+	margin-bottom: 2em;
 	font-family: 'Lato', sans-serif;
 	h4, p {
 		text-align: center;
@@ -123,6 +120,4 @@ i {
 	}
 }
 
-.team {
-	border-radius: 100%
-}
+.team { border-radius: 100% }

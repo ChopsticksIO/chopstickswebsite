@@ -3,25 +3,21 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
     <title><%= content_for?(:title) ? yield(:title) : "foundation-rails" %></title>
-
     <%= stylesheet_link_tag    "application" %>
     <%= javascript_include_tag "vendor/modernizr" %>
     <%= csrf_meta_tags %>
-
   <!--  <link href='http://fonts.googleapis.com/css?family=Raleway:600' rel='stylesheet' type='text/css'>
    <link href='http://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'> -->
- 
   </head>
-
   <body>
-
-	<%= render "/common/header" %>
-
-<%= yield %>
-
-	<%= render "/common/footer" %>
-	<%= javascript_include_tag "application" %>
+  	<%= render "/common/header" %>
+    <div class="row space">
+      <div class="large-12 columns">
+        <%= yield %>
+      </div>
+    </div>
+  	<%= render "/common/footer" %>
+  	<%= javascript_include_tag "application" %>
   </body>
 </html>
