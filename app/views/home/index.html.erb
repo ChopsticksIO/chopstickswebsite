@@ -1,24 +1,22 @@
 <div class = "main">
-  <h2 class="logo">A B2B team for mobile and web applications</h2>
+  <h2 class="logo"><%= t('main') %></h2>
 </div>
 
 <div class="large-4 columns">
-    <%= image_tag('responsive.png', width: "30%", alt: "Design Consulting", class: "large-icon push-3") %>
-  <h4>Design & Consulting</h4>
-  <p>We designed websites from idea to maintenance, tailored products with responsive design to meet your needs.</p>
-  <p>Architecture, ergonomy, user experience.</p>
+  <%= image_tag('responsive.png', width: "30%", alt: "Design Consulting", class: "large-icon push-3") %>
+  <h4><%= t('title1') %></h4>
+  <p><%= t('message1') %></p>
+
 </div>
 <div class="large-4 columns">
   <%= image_tag('icon_27779.png', width: "30%", alt: "Development Integration", class: "large-icon push-3") %>
-  <h4>Development & Integration </h4>
-  <p>Ruby, Rails, Meteor, ...</p>
-  <p>HTML5, CSS3, Bootstrap, Javascript, jQuery, ...</p>
+  <h4><%= t('title2') %></h4>
+  <p><%= t('message2') %></p>
 </div>
 <div class="large-4 columns">
   <%= image_tag('icon_20399.png', width: "30%", alt: "Design_consulting", class: "large-icon push-3") %>
-  <h4>Communication & Growth Hacking </h4>
-  <p>A/B testing, Press hacking, ...</p>
-  <p>...</p>
+  <h4><%= t('title3') %></h4>
+  <p><%= t('message3') %></p>
 </div>
 
 
@@ -28,15 +26,14 @@
 
 <div class="large-12 columns">
   <hr>
-  <h3>Contact us</h3>
   <div class="panel">
-    <h4>Get in touch!</h4>
+    <h4><%= t('contactus') %></h4>
     <div class="row">
       <div class="large-9 columns">
-        <p>We'd love to hear from you ! Send us your demand  and discuss about it.</p>
+        <p><%= t('contact_message') %></p>
       </div>
       <div class="large-3 columns">
-        <a href="#" class="radius button right">Contact Us</a>
+        <a href="#" class="radius button right"><%= t('contact_button') %></a>
       </div>
     </div>
   </div>

@@ -1,0 +1,17 @@
+fr:
+  home : '<i class="fi-home"></i>Accueil'
+  about : '<i class="fi-torsos-all"></i>Nous connaître'
+  projects : '<i class="fi-eye"></i>Réalisations'
+  contact : '<i class="fi-comment"></i>Contactez-nous'
+
+    #home#index
+  main: "Créateurs de site B2B pour desktop et mobile"
+  title1: "Conseils & Design"
+  title2: "Développement & Intégration"
+  title3: "Com' & Growth Hacking"
+  message1: "Nous créons des sites web de la conception à la maintenance, des produits sur mesures adaptés à vos besoins"
+  message2: "Ruby, Rails, Meteor, ...HTML5, CSS3, Bootstrap, Javascript, jQuery, ..."
+  message3: "SEO, A/B testing, Press hacking, ..."
+  contactus: "Contactez-nous"
+  contact_message: "Nous adorerions partager avec vous ! Laissez-nous votre numéro de téléphone et nous vous recontacterons sous 48 heures."
+  contact_button: "Ecrivez-nous maintenant"
