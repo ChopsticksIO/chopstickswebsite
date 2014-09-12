@@ -701,8 +701,8 @@
 
 // We use these to control the caption styles
 // $orbit-container-bg: none;
-// $orbit-caption-bg: rgba(51,51,51, 0.8);
-// $orbit-caption-font-color: #fff;
+$orbit-caption-bg: none;
+$orbit-caption-font-color: black;
 // $orbit-caption-font-size: rem-calc(14);
 // $orbit-caption-position: "bottom"; // Supported values: "bottom", "under"
 // $orbit-caption-padding: rem-calc(10 14);
