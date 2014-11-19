@@ -62,11 +62,23 @@ body {
 	background: #eceef1;
 }
 
+.app {
+	padding: 0 90px;
+}
+
+h1 {
+	text-align: center;
+	margin-bottom: 40px;
+}
+
 h2, h3 { 
 	font-weight: 100;
 	color: $yellow;
 }
 
+h2 {
+	margin-bottom: 30px;
+}
 p { font-family: 'Lato', sans-serif }
 
 .large-icon {
@@ -120,4 +132,4 @@ p { font-family: 'Lato', sans-serif }
 	}
 }
 
-.team { border-radius: 100% }
+/*.team { border-radius: 100% }*/
