@@ -1,2 +1,7 @@
-tmp
-log
+/.bundle
+/db/*.sqlite3
+/db/*.sqlite3-journal
+/log/*.log
+/tmp
+public/assets
+tmp/cache/assets/development/sprockets
