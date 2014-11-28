@@ -1,12 +1,12 @@
 <div class="small-6 small-centered large-6 large-centered columns contact">
-	<%= form_tag contacts_path do %>
-    <%= label_tag 'From' %>
-    <%= text_field_tag :full_name, nil,placeholder: 'John Doe'%>
-    <%= label_tag :email %>
-    <%= email_field_tag :email, nil,placeholder: 'your@email.com' %>
-    <%= label_tag 'Message' %>
-    <%= text_area_tag :description, nil,placeholder: 'Type your message here please.'%>
-    <%= hidden_field_tag :nickname, :hint => 'Leave this field blank!' %>
-  	<%= button_tag "Send message" %>
-	<% end %>
+    <%= form_tag contacts_path do %>
+        <%= label_tag 'From' %>
+        <%= text_field_tag :full_name, nil,placeholder: 'Your Name'%>
+        <%= label_tag :email %>
+        <%= email_field_tag :email, nil,placeholder: 'your@email.com' %>
+        <%= label_tag 'Message' %>
+        <%= text_area_tag :description, nil,placeholder: 'Type your message here please.'%>
+        <%= hidden_field_tag :nickname, :hint => 'Leave this field blank!' %>
+        <%= button_tag "Send message" %>
+    <% end %>
 </div>

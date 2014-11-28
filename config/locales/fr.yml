@@ -1,10 +1,11 @@
 fr:
-  home : '<i class="fi-home"></i>Accueil'
+  link_home : '<i class="fi-home"></i>Accueil'
   about : '<i class="fi-torsos-all"></i>Nous connaître'
   projects : '<i class="fi-eye"></i>Réalisations'
   contact : '<i class="fi-comment"></i>Contactez-nous'
-
-    #home#index
+  flag_en: '<i class="fi-flag"></i>English'
+  flag_fr: '<i class="fi-flag"></i>Français'
+#home#index
   main: "Créateurs de site B2B pour desktop et mobile"
   title1: "Conseils & Design"
   title2: "Développement & Intégration"
@@ -15,3 +16,19 @@ fr:
   contactus: "Contactez-nous"
   contact_message: "Nous adorerions partager avec vous ! Laissez-nous votre numéro de téléphone et nous vous recontacterons sous 48 heures."
   contact_button: "Ecrivez-nous maintenant"
+
+  #home#about
+  about_main: "La première promotion de Simplon.co nous a réuni. Nous avons appris à développer ensemble. De là de bonnes alchimies professionnelles se sont créées. Nous avons donc décidé de continuer à travailler ensemble.</br></br>Nous sommes freelance pour la plupart, et nous regroupons toutes les compétences nécessaires pour réaliser un site ou une application web.</br></br>Si vous avez un projet en tête, n'hésitez pas.</br>"
+  about_title: "Nous connaître"
+  the_team: "L'équipe"
+  team1_name: "Camille"
+  team1_desc: "Lorem ipsum dolor sit amet."
+  team2_name: "Rémy"
+  team2_desc: "Lorem ipsum dolor sit amet."
+  team3_name: "Vincent"
+  team3_desc: "Webdeveloppeur freelance issue du monde humaintaire. Rubyiste convaincu, capable de back -- Docker, Sidekiq, Mongo -- comme de front -- JQuery Angular."
+
+  contacts:
+    create:
+      thanks: "Merci pour votre message."
+      thanks2: "Nous vous contacterons aussi vite que possible"

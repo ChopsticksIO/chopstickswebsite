@@ -4,6 +4,8 @@ en:
   about : '<i class="fi-torsos-all"></i>About us'
   projects : '<i class="fi-eye"></i>Projects'
   contact : '<i class="fi-comment"></i>Contact'
+  flag_en: '<i class="fi-flag"></i>English'
+  flag_fr: '<i class="fi-flag"></i>Français'
 
   #home#index
   main: "A B2B team for mobile and web applications"
@@ -16,3 +18,19 @@ en:
   contactus: "Contact us"
   contact_message: "We'd love to hear from you ! Leave us your phone number, we will call you back within 48 hours."
   contact_button: "Write your message now"
+
+  #home#about
+  about_main: "The first training sessions at Simplon.co brought us together. We learnt to develop together. Some good proefessionnal feelings decided us to continue working together. Most of us are freelance ; together we groups all necessary skills to craft professional web applications"
+  about_title: "About us"
+  the_team: "The team"
+  team1_name: "Camille"
+  team1_desc: "Lorem ipsum dolor sit amet."
+  team2_name: "Rémy"
+  team2_desc: "Lorem ipsum dolor sit amet."
+  team3_name: "Vincent"
+  team3_desc: "Webdeveloppeur freelance from the international non-profit world. Rubyist, capable of backend work -- Docker, Sidekiq, Mongo -- as well as some front -- JQuery Angular."
+
+  contacts:
+    create:
+      thanks: "Thank you for your message."
+      thanks2: "We'll get back to you as soon as possible."

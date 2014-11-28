@@ -1,43 +1,37 @@
-<h1>About</h1>
-
+<h1><%= t('about_title').html_safe %></h1>
 <p>
-	Nous nous sommes rencontré dans la première promotion de Simplon.co. Nous avons appris à développer ensemble, et cela a créé de bonnes alchimies professionnelles. Nous avons donc décidé de continuer à travailler ensemble.</br></br>
-
-	Nous sommes freelance pour la plupart, et nous regroupons toutes les compétences nécessaires pour réaliser un site ou une application web.</br></br>
-
-	Si vous avez un projet en tête, n'hésitez pas.</br>
-
+	<%= t('about_main').html_safe %>
 	<!-- 	 bouton nous contacter  -->
-
 </p>
 
-<h2>L'équipe</h2>
+<%= t('about_main').html_safe %>
+<h2><%= t('the_team') %></h2>
 <div class="row">
 	<div class="small-4 large-4 columns">
-		<div class="small-6 large-6 columns">
+		<div class="columns">
 	 		<%= image_tag('camille.png', width: "100%", alt: "camille", class:"team") %>
 		</div>
 	 	<div class="small-6 large-6 columns">
-			<h5>Camille<h5>
-			<p>Lorem ipsum dolor sit amet.</p>
+			<h5><%= t('team1_name') %><h5>
+			<p><%= t('team1_desc') %></p>
 	</div>
 	</div>
 	<div class="small-4 large-4 columns">
-		<div class="small-6 large-6 columns">
+		<div class="columns">
 		 <%= image_tag('remy.jpg', width: "100%", alt: "esra", class:"team") %>
 		</div>
-		<div class="small-6 large-6 columns">
-			<h5>Rémy<h5>
-				<p>Lorem ipsum dolor sit amet.</p>
+		<div class="columns">
+			<h5><%= t('team2_name') %><h5>
+				<p><%= t('team2_desc') %></p>
 		</div>
 	</div>
 	<div class="small-4 large-4 columns">
-		<div class="small-6 large-6 columns">
+		<div class="columns">
 		<%= image_tag('personne.png', width: "100%", alt: "esra", class:"team") %>
 		</div>
-		<div class="small-6 large-6 columns">
-			<h5>You<h5>
-				<p>Lorem ipsum dolor sit amet.</p>
+		<div class="columns">
+			<h5><%= t('team3_name') %><h5>
+				<p><%= t('team3_desc') %></p>
 		</div>
 	</div>
 </div>

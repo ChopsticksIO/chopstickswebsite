@@ -7,19 +7,15 @@
     </ul>
     <section class="top-bar-section">
       <ul class="right top-bar-ul">
-        <li><%= link_to t('home').html_safe, root_path %></li>
+        <li><%= link_to t('link_home').html_safe, root_path %></li>
         <li><%= link_to t('about').html_safe, home_about_path  %></li>
         <li><%= link_to t('projects').html_safe, contacts_path  %></li>
         <li><%= link_to t('contact').html_safe, contacts_path  %></li>
         <li class="has-dropdown">
           <a href="#"><i class="fi-flag"></i> Language</a>
           <ul class="dropdown">
-            <li><%= link_to '<i class="fi-flag"></i>English'.html_safe, root_path  %></li>
-            <li><%= link_to '<i class="fi-flag"></i>Français'.html_safe, root_path + "fr"  %></li>
-<!--            <li><a href="#">Deutsch</a></li>
-            <li><a href="#">Italiano</a></li>
-            <li><a href="#">Espagnol</a></li>
-            <li><a href="#">Portuguese</a></li> -->
+            <li><%= link_to t('flag_fr').html_safe, root_path  %></li>
+            <li><%= link_to t('flag_en').html_safe, root_path + "fr"  %></li>
           </ul>
         </li>
       </ul>
